@@ -2,11 +2,11 @@
   "clothes": [
     {
       "id": 1,
-      "name": "Synthetic Genesis",
-      "category": ["Interactive Sculpture"],
-      "brand": "Placeholder brand",
+      "name": "Prada T-shirt",
+      "category": ["T-shirt"],
+      "brand": "Prada",
       "size": ["S"],
-      "description": "This is a t-shirt design...",
+      "description": "This is a t-shirt designed by Prada.",
       "material": "Cotton, Polyester",
       "inStock": true,
       "filePath": {
@@ -26,182 +26,218 @@
     },
     {
       "id": 2,
-      "name": "Placeholder 02",
-      "category": ["Placeholder"],
+      "name": "Placeholder Product 02",
+      "category": ["T-shirt"],
       "brand": "Placeholder brand",
       "size": ["S", "M", "L"],
-      "description": "Placeholder description.",
-      "material": "Placeholder material",
+      "description": "This is a placeholder item.",
+      "material": "Cotton, Polyester",
       "inStock": true,
       "filePath": {
-        "main": "assets/clothes/Placeholder02/image/1.jpg",
+        "main": "assets/clothes/5.jpg",
         "additional": [
-          "assets/clothes/Placeholder02/image/2.jpg"
+          "assets/clothes/6.jpg",
+          "assets/clothes/7.jpg",
+          "assets/clothes/8.jpg"
         ]
       },
       "imageCaptions": [
-        "Placeholder caption",
-        "Placeholder caption"
+        "Model View",
+        "Model View",
+        "Model View",
+        "Model View"
       ]
     },
     {
       "id": 3,
-      "name": "Placeholder 03",
-      "category": ["Placeholder"],
+      "name": "Placeholder Product 03",
+      "category": ["T-shirt"],
       "brand": "Placeholder brand",
       "size": ["S", "M", "L"],
-      "description": "Placeholder description.",
-      "material": "Placeholder material",
+      "description": "This is a placeholder item.",
+      "material": "Cotton, Polyester",
       "inStock": false,
       "filePath": {
-        "main": "assets/clothes/Placeholder03/image/1.jpg",
+        "main": "assets/clothes/9.jpg",
         "additional": [
-          "assets/clothes/Placeholder03/image/2.jpg"
+          "assets/clothes/10.jpg",
+          "assets/clothes/11.jpg",
+          "assets/clothes/12.jpg"
         ]
       },
       "imageCaptions": [
-        "Placeholder caption",
-        "Placeholder caption"
+        "Model View",
+        "Model View",
+        "Model View",
+        "Model View"
       ]
     },
     {
       "id": 4,
-      "name": "Placeholder 04",
-      "category": ["Placeholder"],
+      "name": "Placeholder Product 04",
+      "category": ["T-shirt"],
       "brand": "Placeholder brand",
       "size": ["S", "M", "L"],
-      "description": "Placeholder description.",
-      "material": "Placeholder material",
+      "description": "This is a placeholder item.",
+      "material": "Cotton, Polyester",
       "inStock": true,
       "filePath": {
-        "main": "assets/clothes/Placeholder04/image/1.jpg",
+        "main": "assets/clothes/13.jpg",
         "additional": [
-          "assets/clothes/Placeholder04/image/2.jpg"
+          "assets/clothes/14.jpg",
+          "assets/clothes/15.jpg",
+          "assets/clothes/16.jpg"
         ]
       },
       "imageCaptions": [
-        "Placeholder caption",
-        "Placeholder caption"
+        "Model View",
+        "Model View",
+        "Model View",
+        "Model View"
       ]
     },
     {
       "id": 5,
-      "name": "Placeholder 05",
-      "category": ["Placeholder"],
+      "name": "Placeholder Product 05",
+      "category": ["T-shirt"],
       "brand": "Placeholder brand",
       "size": ["S", "M", "L"],
-      "description": "Placeholder description.",
-      "material": "Placeholder material",
+      "description": "This is a placeholder item.",
+      "material": "Cotton, Polyester",
       "inStock": false,
       "filePath": {
-        "main": "assets/clothes/Placeholder05/image/1.jpg",
+        "main": "assets/clothes/17.jpg",
         "additional": [
-          "assets/clothes/Placeholder05/image/2.jpg"
+          "assets/clothes/18.jpg",
+          "assets/clothes/19.jpg",
+          "assets/clothes/20.jpg"
         ]
       },
       "imageCaptions": [
-        "Placeholder caption",
-        "Placeholder caption"
+        "Model View",
+        "Model View",
+        "Model View",
+        "Model View"
       ]
     },
     {
       "id": 6,
-      "name": "Placeholder 06",
-      "category": ["Placeholder"],
+      "name": "Placeholder Product 06",
+      "category": ["T-shirt"],
       "brand": "Placeholder brand",
       "size": ["S", "M", "L"],
-      "description": "Placeholder description.",
-      "material": "Placeholder material",
+      "description": "This is a placeholder item.",
+      "material": "Cotton, Polyester",
       "inStock": true,
       "filePath": {
-        "main": "assets/clothes/Placeholder06/image/1.jpg",
+        "main": "assets/clothes/21.jpg",
         "additional": [
-          "assets/clothes/Placeholder06/image/2.jpg"
+          "assets/clothes/22.jpg",
+          "assets/clothes/23.jpg",
+          "assets/clothes/24.jpg"
         ]
       },
       "imageCaptions": [
-        "Placeholder caption",
-        "Placeholder caption"
+        "Model View",
+        "Model View",
+        "Model View",
+        "Model View"
       ]
     },
     {
       "id": 7,
-      "name": "Placeholder 07",
-      "category": ["Placeholder"],
+      "name": "Placeholder Product 07",
+      "category": ["T-shirt"],
       "brand": "Placeholder brand",
       "size": ["S", "M", "L"],
-      "description": "Placeholder description.",
-      "material": "Placeholder material",
+      "description": "This is a placeholder item.",
+      "material": "Cotton, Polyester",
       "inStock": true,
       "filePath": {
-        "main": "assets/clothes/Placeholder07/image/1.jpg",
+        "main": "assets/clothes/25.jpg",
         "additional": [
-          "assets/clothes/Placeholder07/image/2.jpg"
+          "assets/clothes/26.jpg",
+          "assets/clothes/27.jpg",
+          "assets/clothes/28.jpg"
         ]
       },
       "imageCaptions": [
-        "Placeholder caption",
-        "Placeholder caption"
+        "Model View",
+        "Model View",
+        "Model View",
+        "Model View"
       ]
     },
     {
       "id": 8,
-      "name": "Placeholder 08",
-      "category": ["Placeholder"],
+      "name": "Placeholder Product 08",
+      "category": ["T-shirt"],
       "brand": "Placeholder brand",
       "size": ["S", "M", "L"],
-      "description": "Placeholder description.",
-      "material": "Placeholder material",
+      "description": "This is a placeholder item.",
+      "material": "Cotton, Polyester",
       "inStock": false,
       "filePath": {
-        "main": "assets/clothes/Placeholder08/image/1.jpg",
+        "main": "assets/clothes/29.jpg",
         "additional": [
-          "assets/clothes/Placeholder08/image/2.jpg"
+          "assets/clothes/30.jpg",
+          "assets/clothes/31.jpg",
+          "assets/clothes/32.jpg"
         ]
       },
       "imageCaptions": [
-        "Placeholder caption",
-        "Placeholder caption"
+        "Model View",
+        "Model View",
+        "Model View",
+        "Model View"
       ]
     },
     {
       "id": 9,
-      "name": "Placeholder 09",
-      "category": ["Placeholder"],
+      "name": "Placeholder Product 09",
+      "category": ["T-shirt"],
       "brand": "Placeholder brand",
       "size": ["S", "M", "L"],
-      "description": "Placeholder description.",
-      "material": "Placeholder material",
+      "description": "This is a placeholder item.",
+      "material": "Cotton, Polyester",
       "inStock": true,
       "filePath": {
-        "main": "assets/clothes/Placeholder09/image/1.jpg",
+        "main": "assets/clothes/33.jpg",
         "additional": [
-          "assets/clothes/Placeholder09/image/2.jpg"
+          "assets/clothes/34.jpg",
+          "assets/clothes/35.jpg",
+          "assets/clothes/36.jpg"
         ]
       },
       "imageCaptions": [
-        "Placeholder caption",
-        "Placeholder caption"
+        "Model View",
+        "Model View",
+        "Model View",
+        "Model View"
       ]
     },
     {
       "id": 10,
-      "name": "Placeholder 10",
-      "category": ["Placeholder"],
+      "name": "Placeholder Product 10",
+      "category": ["T-shirt"],
       "brand": "Placeholder brand",
       "size": ["S", "M", "L"],
-      "description": "Placeholder description.",
-      "material": "Placeholder material",
+      "description": "This is a placeholder item.",
+      "material": "Cotton, Polyester",
       "inStock": false,
       "filePath": {
-        "main": "assets/clothes/Placeholder10/image/1.jpg",
+        "main": "assets/clothes/37.jpg",
         "additional": [
-          "assets/clothes/Placeholder10/image/2.jpg"
+          "assets/clothes/38.jpg",
+          "assets/clothes/39.jpg",
+          "assets/clothes/40.jpg"
         ]
       },
       "imageCaptions": [
-        "Placeholder caption",
-        "Placeholder caption"
+        "Model View",
+        "Model View",
+        "Model View",
+        "Model View"
       ]
     }
   ]
