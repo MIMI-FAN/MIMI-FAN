@@ -1,0 +1,208 @@
+{
+  "clothes": [
+    {
+      "id": 1,
+      "name": "Synthetic Genesis",
+      "category": ["Interactive Sculpture"],
+      "brand": "Placeholder brand",
+      "size": ["S"],
+      "description": "This is a t-shirt design...",
+      "material": "Cotton, Polyester",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/1.jpg",
+        "additional": [
+          "assets/clothes/2.jpg",
+          "assets/clothes/3.jpg",
+          "assets/clothes/4.jpg"
+        ]
+      },
+      "imageCaptions": [
+        "Model View",
+        "Model View",
+        "Model View",
+        "Model View"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Placeholder 02",
+      "category": ["Placeholder"],
+      "brand": "Placeholder brand",
+      "size": ["S", "M", "L"],
+      "description": "Placeholder description.",
+      "material": "Placeholder material",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/Placeholder02/image/1.jpg",
+        "additional": [
+          "assets/clothes/Placeholder02/image/2.jpg"
+        ]
+      },
+      "imageCaptions": [
+        "Placeholder caption",
+        "Placeholder caption"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Placeholder 03",
+      "category": ["Placeholder"],
+      "brand": "Placeholder brand",
+      "size": ["S", "M", "L"],
+      "description": "Placeholder description.",
+      "material": "Placeholder material",
+      "inStock": false,
+      "filePath": {
+        "main": "assets/clothes/Placeholder03/image/1.jpg",
+        "additional": [
+          "assets/clothes/Placeholder03/image/2.jpg"
+        ]
+      },
+      "imageCaptions": [
+        "Placeholder caption",
+        "Placeholder caption"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Placeholder 04",
+      "category": ["Placeholder"],
+      "brand": "Placeholder brand",
+      "size": ["S", "M", "L"],
+      "description": "Placeholder description.",
+      "material": "Placeholder material",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/Placeholder04/image/1.jpg",
+        "additional": [
+          "assets/clothes/Placeholder04/image/2.jpg"
+        ]
+      },
+      "imageCaptions": [
+        "Placeholder caption",
+        "Placeholder caption"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Placeholder 05",
+      "category": ["Placeholder"],
+      "brand": "Placeholder brand",
+      "size": ["S", "M", "L"],
+      "description": "Placeholder description.",
+      "material": "Placeholder material",
+      "inStock": false,
+      "filePath": {
+        "main": "assets/clothes/Placeholder05/image/1.jpg",
+        "additional": [
+          "assets/clothes/Placeholder05/image/2.jpg"
+        ]
+      },
+      "imageCaptions": [
+        "Placeholder caption",
+        "Placeholder caption"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Placeholder 06",
+      "category": ["Placeholder"],
+      "brand": "Placeholder brand",
+      "size": ["S", "M", "L"],
+      "description": "Placeholder description.",
+      "material": "Placeholder material",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/Placeholder06/image/1.jpg",
+        "additional": [
+          "assets/clothes/Placeholder06/image/2.jpg"
+        ]
+      },
+      "imageCaptions": [
+        "Placeholder caption",
+        "Placeholder caption"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Placeholder 07",
+      "category": ["Placeholder"],
+      "brand": "Placeholder brand",
+      "size": ["S", "M", "L"],
+      "description": "Placeholder description.",
+      "material": "Placeholder material",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/Placeholder07/image/1.jpg",
+        "additional": [
+          "assets/clothes/Placeholder07/image/2.jpg"
+        ]
+      },
+      "imageCaptions": [
+        "Placeholder caption",
+        "Placeholder caption"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Placeholder 08",
+      "category": ["Placeholder"],
+      "brand": "Placeholder brand",
+      "size": ["S", "M", "L"],
+      "description": "Placeholder description.",
+      "material": "Placeholder material",
+      "inStock": false,
+      "filePath": {
+        "main": "assets/clothes/Placeholder08/image/1.jpg",
+        "additional": [
+          "assets/clothes/Placeholder08/image/2.jpg"
+        ]
+      },
+      "imageCaptions": [
+        "Placeholder caption",
+        "Placeholder caption"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Placeholder 09",
+      "category": ["Placeholder"],
+      "brand": "Placeholder brand",
+      "size": ["S", "M", "L"],
+      "description": "Placeholder description.",
+      "material": "Placeholder material",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/Placeholder09/image/1.jpg",
+        "additional": [
+          "assets/clothes/Placeholder09/image/2.jpg"
+        ]
+      },
+      "imageCaptions": [
+        "Placeholder caption",
+        "Placeholder caption"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Placeholder 10",
+      "category": ["Placeholder"],
+      "brand": "Placeholder brand",
+      "size": ["S", "M", "L"],
+      "description": "Placeholder description.",
+      "material": "Placeholder material",
+      "inStock": false,
+      "filePath": {
+        "main": "assets/clothes/Placeholder10/image/1.jpg",
+        "additional": [
+          "assets/clothes/Placeholder10/image/2.jpg"
+        ]
+      },
+      "imageCaptions": [
+        "Placeholder caption",
+        "Placeholder caption"
+      ]
+    }
+  ]
+}
