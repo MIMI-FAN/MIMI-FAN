@@ -1,1 +1,6 @@
-/* App styles */
+:root {
+  --color-cream: #f4efe6;
+  --color-dark-brown: #3b2b22;
+  --color-black: #000000;
+  --color-white: #ffffff;
+}

@@ -1,0 +1,70 @@
+.clothes-card {
+  position: relative;
+  border: 1px solid var(--color-dark-brown);
+  aspect-ratio: 3 / 4;
+  transition: transform 0.35s ease;
+}
+
+.clothes-card:hover {
+  transform: scale(1.03);
+}
+
+.add-to-cart {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--color-dark-brown);
+  background-color: var(--color-cream);
+  padding: 6px;
+  cursor: pointer;
+  transition: all 0.35s ease;
+}
+
+.add-to-cart:hover {
+  background-color: var(--color-dark-brown);
+}
+
+.add-to-cart-icon {
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-dark-brown);
+  -webkit-mask: url('/assets/icons/addtoCart.svg') no-repeat center / contain;
+  mask: url('/assets/icons/addtoCart.svg') no-repeat center / contain;
+  transition: background-color 0.35s ease;
+}
+
+.add-to-cart:hover .add-to-cart-icon {
+  background-color: var(--color-cream);
+}
+
+.remove-item {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--color-dark-brown);
+  background-color: var(--color-cream);
+  padding: 6px;
+  cursor: pointer;
+  transition: all 0.35s ease;
+}
+
+.remove-item:hover {
+  background-color: var(--color-dark-brown);
+}
+
+.remove-item-icon {
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-dark-brown);
+  -webkit-mask: url('/assets/icons/cross.svg') no-repeat center / contain;
+  mask: url('/assets/icons/cross.svg') no-repeat center / contain;
+  transition: background-color 0.35s ease;
+}
+
+.remove-item:hover .remove-item-icon {
+  background-color: var(--color-cream);
+}

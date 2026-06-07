@@ -1,0 +1,12 @@
+.shopping-cart-page {
+  min-height: 100vh;
+  background-color: var(--color-cream);
+  color: var(--color-dark-brown);
+  padding: 100px 40px 60px;
+}
+
+.shopping-cart-page .product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
