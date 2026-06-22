@@ -1,1 +1,33 @@
-/* ContactPage styles */
+.contact-page {
+  min-height: 100vh;
+  background-color: var(--color-cream);
+  color: var(--color-dark-brown);
+  display: flex;
+  align-items: center;
+  padding: 100px 40px 60px;
+  gap: 40px;
+}
+
+.contact-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+}
+
+.contact-qr {
+  width: 180px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-dark-brown);
+  font-size: 14px;
+}
+
+.contact-text {
+  font-size: 14px;
+  line-height: 1.6;
+}

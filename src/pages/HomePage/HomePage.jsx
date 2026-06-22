@@ -1,8 +1,18 @@
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import ClothesCard from '../../components/ClothesCard/ClothesCard'
 import './HomePage.css'
 
 function HomePage({ addToCart }) {
+  const [clothes, setClothes] = useState([])
+
+  useEffect(() => {
+    fetch('/assets/clothes/clothes.json')
+      .then((res) => res.json())
+      .then((data) => setClothes(data.clothes))
+      .catch(() => setClothes([]))
+  }, [])
+
   return (
     <div className="home-page">
       <section className="hero">
@@ -14,12 +24,8 @@ function HomePage({ addToCart }) {
 
       <section className="products">
         <div className="product-grid">
-          {Array.from({ length: 12 }).map((_, index) => (
-            <ClothesCard
-              key={index}
-              item={{ id: `home-${index}`, name: `Placeholder ${index + 1}` }}
-              onAddToCart={addToCart}
-            />
+          {clothes.slice(0, 8).map((item) => (
+            <ClothesCard key={item.id} item={item} onAddToCart={addToCart} />
           ))}
         </div>
         <div className="view-more">
