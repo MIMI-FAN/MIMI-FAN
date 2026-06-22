@@ -1,13 +1,15 @@
 import { useEffect, useRef, useState } from 'react'
 import ClothesCard from '../../components/ClothesCard/ClothesCard'
+import ClothesLightroom from '../../components/ClothesLightroom/ClothesLightroom'
 import './ClothesPage.css'
 
-const SIZES = ['XXS', 'XS', 'S', 'M', 'L', 'XL', 'XXL']
+const SIZES = ['XXS', 'XS', 'S', 'M', 'L', 'XL', 'XXL', 'One Size']
 const AVAILABILITY = ['In Stock', 'Out of Stock']
 
 function ClothesPage({ addToCart }) {
   const [clothes, setClothes] = useState([])
   const [openMenu, setOpenMenu] = useState(null)
+  const [selectedItem, setSelectedItem] = useState(null)
   const [filters, setFilters] = useState({
     category: [],
     brand: [],
@@ -130,9 +132,20 @@ function ClothesPage({ addToCart }) {
 
       <div className="product-grid">
         {filteredClothes.map((item) => (
-          <ClothesCard key={item.id} item={item} onAddToCart={addToCart} />
+          <ClothesCard
+            key={item.id}
+            item={item}
+            onAddToCart={addToCart}
+            onCardClick={setSelectedItem}
+          />
         ))}
       </div>
+
+      <ClothesLightroom
+        item={selectedItem}
+        onClose={() => setSelectedItem(null)}
+        onAddToCart={addToCart}
+      />
     </div>
   )
 }

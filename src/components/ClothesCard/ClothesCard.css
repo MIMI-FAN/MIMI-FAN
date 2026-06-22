@@ -1,8 +1,40 @@
 .clothes-card {
   position: relative;
-  border: 1px solid var(--color-dark-brown);
-  aspect-ratio: 3 / 4;
+  cursor: pointer;
+  outline: none;
   transition: transform 0.35s ease;
+}
+
+.clothes-card-media {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+}
+
+.clothes-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.clothes-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 12px;
+  background-color: var(--color-cream);
+  color: var(--color-dark-brown);
+}
+
+.clothes-card-brand {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.clothes-card-name {
+  font-size: 14px;
 }
 
 .clothes-card:hover {
@@ -15,7 +47,8 @@
   bottom: 10px;
   display: flex;
   align-items: center;
-  border: 1px solid var(--color-dark-brown);
+  border: none;
+  outline: none;
   background-color: var(--color-cream);
   padding: 6px;
   cursor: pointer;

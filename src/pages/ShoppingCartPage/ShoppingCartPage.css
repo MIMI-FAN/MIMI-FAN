@@ -10,3 +10,112 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
+
+.cart-form-button {
+  position: fixed;
+  top: 80px;
+  right: 40px;
+  z-index: 50;
+  border: 1px solid var(--color-dark-brown);
+  background-color: var(--color-cream);
+  color: var(--color-dark-brown);
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.35s ease;
+}
+
+.cart-form-button:hover {
+  background-color: var(--color-dark-brown);
+  color: var(--color-cream);
+}
+
+.form-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  z-index: 100;
+}
+
+.form-window {
+  position: relative;
+  width: 90vw;
+  max-width: 700px;
+  max-height: 85vh;
+  overflow-y: auto;
+  background-color: var(--color-cream);
+  color: var(--color-dark-brown);
+  padding: 40px 32px;
+}
+
+.form-title {
+  margin-bottom: 20px;
+}
+
+.form-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+}
+
+.form-table th,
+.form-table td {
+  border: 1px solid var(--color-dark-brown);
+  padding: 8px 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.form-download {
+  border: 1px solid var(--color-dark-brown);
+  background-color: var(--color-cream);
+  color: var(--color-dark-brown);
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.35s ease;
+}
+
+.form-download:hover {
+  background-color: var(--color-dark-brown);
+  color: var(--color-cream);
+}
+
+.form-download:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.form-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-color: var(--color-cream);
+  padding: 6px;
+  cursor: pointer;
+  transition: all 0.35s ease;
+}
+
+.form-close:hover {
+  background-color: var(--color-dark-brown);
+}
+
+.form-close-icon {
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-dark-brown);
+  -webkit-mask: url('/assets/icons/cross.svg') no-repeat center / contain;
+  mask: url('/assets/icons/cross.svg') no-repeat center / contain;
+  transition: background-color 0.35s ease;
+}
+
+.form-close:hover .form-close-icon {
+  background-color: var(--color-cream);
+}

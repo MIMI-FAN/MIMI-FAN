@@ -1,244 +1,653 @@
 {
   "clothes": [
     {
-      "id": 1,
-      "name": "Prada T-shirt",
-      "category": ["T-shirt"],
-      "brand": "Prada",
+      "id": "8f3a1c7d",
+      "sku": "TOP-ARE-001",
+      "name": "Ribbed Cap Sleeve Crop Top",
+      "category": ["Top"],
+      "brand": "ARE YOU AM I",
+      "color": "Black",
+      "size": ["XS"],
+      "description": "A fitted ribbed crop top with a mock neck and short cap sleeves.",
+      "material": "Ribbed Knit",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/8f3a1c7d/1.jpg",
+        "additional": [
+          "assets/clothes/8f3a1c7d/2.jpg",
+          "assets/clothes/8f3a1c7d/3.jpg",
+          "assets/clothes/8f3a1c7d/4.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "a2e9b4f1",
+      "sku": "CAR-RAR-001",
+      "name": "Argyle Knit Cardigan",
+      "category": ["Cardigan"],
+      "brand": "RARELY ALIKE",
+      "color": "Black",
       "size": ["S"],
-      "description": "This is a t-shirt designed by Prada.",
-      "material": "Cotton, Polyester",
+      "description": "A black long-sleeve knit cardigan with a pink and cream argyle pattern across the chest and cuffs, finished with a button-up front.",
+      "material": "Knit",
+      "price": "100",
       "inStock": true,
       "filePath": {
-        "main": "assets/clothes/1.jpg",
+        "main": "assets/clothes/a2e9b4f1/1.jpg",
         "additional": [
-          "assets/clothes/2.jpg",
-          "assets/clothes/3.jpg",
-          "assets/clothes/4.jpg"
+          "assets/clothes/a2e9b4f1/2.jpg",
+          "assets/clothes/a2e9b4f1/3.jpg"
         ]
       },
-      "imageCaptions": [
-        "Model View",
-        "Model View",
-        "Model View",
-        "Model View"
-      ]
+      "imageCaptions": []
     },
     {
-      "id": 2,
-      "name": "Placeholder Product 02",
-      "category": ["T-shirt"],
-      "brand": "Placeholder brand",
-      "size": ["S", "M", "L"],
-      "description": "This is a placeholder item.",
-      "material": "Cotton, Polyester",
+      "id": "c7d05e63",
+      "sku": "TOP-PAL-001",
+      "name": "Lace Trim Ribbed Tank Top",
+      "category": ["Top"],
+      "brand": "PALAVAS",
+      "color": "Black",
+      "size": ["XS"],
+      "description": "A sleeveless ribbed knit top with delicate floral lace trim along the neckline, armholes, and hem.",
+      "material": "Ribbed Knit, Lace",
+      "price": "100",
       "inStock": true,
       "filePath": {
-        "main": "assets/clothes/5.jpg",
+        "main": "assets/clothes/c7d05e63/1.jpg",
         "additional": [
-          "assets/clothes/6.jpg",
-          "assets/clothes/7.jpg",
-          "assets/clothes/8.jpg"
+          "assets/clothes/c7d05e63/2.jpg",
+          "assets/clothes/c7d05e63/3.jpg"
         ]
       },
-      "imageCaptions": [
-        "Model View",
-        "Model View",
-        "Model View",
-        "Model View"
-      ]
+      "imageCaptions": []
     },
     {
-      "id": 3,
-      "name": "Placeholder Product 03",
-      "category": ["T-shirt"],
-      "brand": "Placeholder brand",
-      "size": ["S", "M", "L"],
-      "description": "This is a placeholder item.",
-      "material": "Cotton, Polyester",
-      "inStock": false,
-      "filePath": {
-        "main": "assets/clothes/9.jpg",
-        "additional": [
-          "assets/clothes/10.jpg",
-          "assets/clothes/11.jpg",
-          "assets/clothes/12.jpg"
-        ]
-      },
-      "imageCaptions": [
-        "Model View",
-        "Model View",
-        "Model View",
-        "Model View"
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Placeholder Product 04",
-      "category": ["T-shirt"],
-      "brand": "Placeholder brand",
-      "size": ["S", "M", "L"],
-      "description": "This is a placeholder item.",
-      "material": "Cotton, Polyester",
+      "id": "1b9f8a24",
+      "sku": "TOP-WIT-001",
+      "name": "Eyelet Lace-Up Corset Top",
+      "category": ["Top"],
+      "brand": "WITHJEAN",
+      "color": "White",
+      "size": ["XS"],
+      "description": "A white strapless corset top in broderie anglaise eyelet fabric, with lace trim and a black ribbon lace-up front.",
+      "material": "Cotton Eyelet",
+      "price": "100",
       "inStock": true,
       "filePath": {
-        "main": "assets/clothes/13.jpg",
+        "main": "assets/clothes/1b9f8a24/1.jpg",
         "additional": [
-          "assets/clothes/14.jpg",
-          "assets/clothes/15.jpg",
-          "assets/clothes/16.jpg"
+          "assets/clothes/1b9f8a24/2.jpg",
+          "assets/clothes/1b9f8a24/3.jpg"
         ]
       },
-      "imageCaptions": [
-        "Model View",
-        "Model View",
-        "Model View",
-        "Model View"
-      ]
+      "imageCaptions": []
     },
     {
-      "id": 5,
-      "name": "Placeholder Product 05",
-      "category": ["T-shirt"],
-      "brand": "Placeholder brand",
-      "size": ["S", "M", "L"],
-      "description": "This is a placeholder item.",
-      "material": "Cotton, Polyester",
-      "inStock": false,
-      "filePath": {
-        "main": "assets/clothes/17.jpg",
-        "additional": [
-          "assets/clothes/18.jpg",
-          "assets/clothes/19.jpg",
-          "assets/clothes/20.jpg"
-        ]
-      },
-      "imageCaptions": [
-        "Model View",
-        "Model View",
-        "Model View",
-        "Model View"
-      ]
-    },
-    {
-      "id": 6,
-      "name": "Placeholder Product 06",
-      "category": ["T-shirt"],
-      "brand": "Placeholder brand",
-      "size": ["S", "M", "L"],
-      "description": "This is a placeholder item.",
-      "material": "Cotton, Polyester",
+      "id": "e4c63d70",
+      "sku": "DRS-FRE-001",
+      "name": "Striped Ribbed Knit Mini Dress",
+      "category": ["Dress"],
+      "brand": "FRENCH KISS",
+      "color": "Brown",
+      "size": ["S"],
+      "description": "A fitted ribbed knit mini dress with square neckline and thin straps, featuring horizontal stripes in brown, cream, blue, and burgundy.",
+      "material": "Ribbed Knit",
+      "price": "100",
       "inStock": true,
       "filePath": {
-        "main": "assets/clothes/21.jpg",
+        "main": "assets/clothes/e4c63d70/1.jpg",
         "additional": [
-          "assets/clothes/22.jpg",
-          "assets/clothes/23.jpg",
-          "assets/clothes/24.jpg"
+          "assets/clothes/e4c63d70/2.jpg",
+          "assets/clothes/e4c63d70/3.jpg"
         ]
       },
-      "imageCaptions": [
-        "Model View",
-        "Model View",
-        "Model View",
-        "Model View"
-      ]
+      "imageCaptions": []
     },
     {
-      "id": 7,
-      "name": "Placeholder Product 07",
-      "category": ["T-shirt"],
-      "brand": "Placeholder brand",
-      "size": ["S", "M", "L"],
-      "description": "This is a placeholder item.",
-      "material": "Cotton, Polyester",
+      "id": "9a1f2b85",
+      "sku": "TOP-ZAE-001",
+      "name": "Fold-Over Bandeau Top",
+      "category": ["Top"],
+      "brand": "ZAERJIE",
+      "color": "Beige",
+      "size": ["One Size"],
+      "description": "A beige strapless bandeau top with a fold-over neckline and zip details at the sides.",
+      "material": "Jersey",
+      "price": "100",
       "inStock": true,
       "filePath": {
-        "main": "assets/clothes/25.jpg",
+        "main": "assets/clothes/9a1f2b85/1.jpg",
         "additional": [
-          "assets/clothes/26.jpg",
-          "assets/clothes/27.jpg",
-          "assets/clothes/28.jpg"
+          "assets/clothes/9a1f2b85/2.jpg",
+          "assets/clothes/9a1f2b85/3.jpg"
         ]
       },
-      "imageCaptions": [
-        "Model View",
-        "Model View",
-        "Model View",
-        "Model View"
-      ]
+      "imageCaptions": []
     },
     {
-      "id": 8,
-      "name": "Placeholder Product 08",
-      "category": ["T-shirt"],
-      "brand": "Placeholder brand",
-      "size": ["S", "M", "L"],
-      "description": "This is a placeholder item.",
-      "material": "Cotton, Polyester",
-      "inStock": false,
-      "filePath": {
-        "main": "assets/clothes/29.jpg",
-        "additional": [
-          "assets/clothes/30.jpg",
-          "assets/clothes/31.jpg",
-          "assets/clothes/32.jpg"
-        ]
-      },
-      "imageCaptions": [
-        "Model View",
-        "Model View",
-        "Model View",
-        "Model View"
-      ]
-    },
-    {
-      "id": 9,
-      "name": "Placeholder Product 09",
-      "category": ["T-shirt"],
-      "brand": "Placeholder brand",
-      "size": ["S", "M", "L"],
-      "description": "This is a placeholder item.",
-      "material": "Cotton, Polyester",
+      "id": "6d3e7c09",
+      "sku": "DRS-JTC-001",
+      "name": "Sequin Bow Mini Dress",
+      "category": ["Dress"],
+      "brand": "J The Chosen",
+      "color": "Pink",
+      "size": ["M"],
+      "description": "A pink strapless sequin mini dress with a satin bow and long ribbon sash at the bust.",
+      "material": "Sequin",
+      "price": "100",
       "inStock": true,
       "filePath": {
-        "main": "assets/clothes/33.jpg",
+        "main": "assets/clothes/6d3e7c09/1.jpg",
         "additional": [
-          "assets/clothes/34.jpg",
-          "assets/clothes/35.jpg",
-          "assets/clothes/36.jpg"
+          "assets/clothes/6d3e7c09/2.jpg",
+          "assets/clothes/6d3e7c09/3.jpg"
         ]
       },
-      "imageCaptions": [
-        "Model View",
-        "Model View",
-        "Model View",
-        "Model View"
-      ]
+      "imageCaptions": []
     },
     {
-      "id": 10,
-      "name": "Placeholder Product 10",
-      "category": ["T-shirt"],
-      "brand": "Placeholder brand",
-      "size": ["S", "M", "L"],
-      "description": "This is a placeholder item.",
-      "material": "Cotton, Polyester",
-      "inStock": false,
+      "id": "b85a0f41",
+      "sku": "TOP-LOU-001",
+      "name": "One-Shoulder Print Mesh Top",
+      "category": ["Top"],
+      "brand": "LOUMUTKKU",
+      "color": "Pink",
+      "size": ["S"],
+      "description": "A draped one-shoulder mesh top with an abstract pink and grey print.",
+      "material": "Mesh",
+      "price": "100",
+      "inStock": true,
       "filePath": {
-        "main": "assets/clothes/37.jpg",
+        "main": "assets/clothes/b85a0f41/1.jpg",
         "additional": [
-          "assets/clothes/38.jpg",
-          "assets/clothes/39.jpg",
-          "assets/clothes/40.jpg"
+          "assets/clothes/b85a0f41/2.jpg",
+          "assets/clothes/b85a0f41/3.jpg"
         ]
       },
-      "imageCaptions": [
-        "Model View",
-        "Model View",
-        "Model View",
-        "Model View"
-      ]
+      "imageCaptions": []
+    },
+    {
+      "id": "2f7c9d13",
+      "sku": "TOP-PWL-001",
+      "name": "Sheer Knit Top with Tie",
+      "category": ["Top"],
+      "brand": "PALOMA WOOL",
+      "color": "Black",
+      "size": ["M"],
+      "description": "A sleeveless semi-sheer mohair knit top with a long scarf tie at the neck.",
+      "material": "Mohair Knit",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/2f7c9d13/1.jpg",
+        "additional": [
+          "assets/clothes/2f7c9d13/2.jpg",
+          "assets/clothes/2f7c9d13/3.jpg",
+          "assets/clothes/2f7c9d13/4.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "5e1a8b6f",
+      "sku": "TOP-JAD-001",
+      "name": "Metallic Cowl Neck Top",
+      "category": ["Top"],
+      "brand": "JADED LONDON",
+      "color": "Purple",
+      "size": ["XS"],
+      "description": "A sleeveless top with a draped cowl neckline in a shimmering metallic lilac finish.",
+      "material": "Metallic Jersey",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/5e1a8b6f/1.jpg",
+        "additional": [
+          "assets/clothes/5e1a8b6f/2.jpg",
+          "assets/clothes/5e1a8b6f/3.jpg",
+          "assets/clothes/5e1a8b6f/4.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "d09c4e27",
+      "sku": "TOP-GUI-001",
+      "name": "Lace Cap Sleeve Blouse",
+      "category": ["Top"],
+      "brand": "GUIZIO",
+      "color": "White",
+      "size": ["S"],
+      "description": "A white sheer floral lace blouse with a pointed collar, cap sleeves, and a button-up front.",
+      "material": "Lace",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/d09c4e27/1.jpg",
+        "additional": [
+          "assets/clothes/d09c4e27/2.jpg",
+          "assets/clothes/d09c4e27/3.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "7a2b5f80",
+      "sku": "TOP-GUI-002",
+      "name": "Ruched Puff Sleeve Crop Top",
+      "category": ["Top"],
+      "brand": "GUIZIO",
+      "color": "Olive",
+      "size": ["XS"],
+      "description": "An olive green cropped top with long puff sleeves, a square neckline, and a ruched bust.",
+      "material": "Cotton",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/7a2b5f80/1.jpg",
+        "additional": [
+          "assets/clothes/7a2b5f80/2.jpg",
+          "assets/clothes/7a2b5f80/3.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "3c6d1e9a",
+      "sku": "TOP-PAL-002",
+      "name": "Ruffle Trim Knit Bandeau Top",
+      "category": ["Top"],
+      "brand": "PALAVAS",
+      "color": "White",
+      "size": ["XS"],
+      "description": "A cream ribbed knit strapless bandeau top trimmed with ruffled lace along the neckline, center front, and scalloped hem.",
+      "material": "Ribbed Knit, Lace",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/3c6d1e9a/1.jpg",
+        "additional": [
+          "assets/clothes/3c6d1e9a/2.jpg",
+          "assets/clothes/3c6d1e9a/3.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "4e9d2c75",
+      "sku": "TOP-JAC-001",
+      "name": "Off-Shoulder Wrap Knit Top",
+      "category": ["Top"],
+      "brand": "JACQUEMUS",
+      "color": "Cream",
+      "size": ["34"],
+      "description": "A cream knit off-shoulder top with a twisted bardot neckline and extra-long wrap sleeves.",
+      "material": "Knit",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/4e9d2c75/1.jpg",
+        "additional": [
+          "assets/clothes/4e9d2c75/2.jpg",
+          "assets/clothes/4e9d2c75/3.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "a07f3b61",
+      "sku": "TOP-MAR-001",
+      "name": "Square Neck Button Tank Top",
+      "category": ["Top"],
+      "brand": "MARCHIVE MARCHEN",
+      "color": "White",
+      "size": ["S"],
+      "description": "A white sleeveless cotton tank top with a square neckline, an empire seam, and a short button placket at the bust.",
+      "material": "Cotton",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/a07f3b61/1.jpg",
+        "additional": [
+          "assets/clothes/a07f3b61/2.jpg",
+          "assets/clothes/a07f3b61/3.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "1d5e8c20",
+      "sku": "TOP-ARE-002",
+      "name": "Ribbed Cap Sleeve Crop Top",
+      "category": ["Top"],
+      "brand": "AREYOUAMI",
+      "color": "Beige",
+      "size": ["XS"],
+      "description": "A fitted beige ribbed knit crop top with a mock neck and short cap sleeves.",
+      "material": "Ribbed Knit",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/1d5e8c20/1.jpg",
+        "additional": [
+          "assets/clothes/1d5e8c20/2.jpg",
+          "assets/clothes/1d5e8c20/3.jpg",
+          "assets/clothes/1d5e8c20/4.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "9b4a6f33",
+      "sku": "SWT-TAC-001",
+      "name": "Floral Appliqué Knit Sweater",
+      "category": ["Sweater"],
+      "brand": "TACH",
+      "color": "Cream",
+      "size": ["XS"],
+      "description": "A cream mohair knit short-sleeve sweater covered with three-dimensional crochet floral appliqués.",
+      "material": "Mohair Knit",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/9b4a6f33/1.jpg",
+        "additional": [
+          "assets/clothes/9b4a6f33/2.jpg",
+          "assets/clothes/9b4a6f33/3.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "6c0d7e18",
+      "sku": "DRS-UNK-001",
+      "name": "Pointelle Knit Mini Dress",
+      "category": ["Dress"],
+      "brand": "Unknown",
+      "color": "White",
+      "size": ["XS"],
+      "description": "A white pointelle knit sleeveless mini dress with a scoop neck, a flared tiered ruffle skirt, and a black ribbon bow brooch at the chest.",
+      "material": "Knit",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/6c0d7e18/1.jpg",
+        "additional": [
+          "assets/clothes/6c0d7e18/2.jpg",
+          "assets/clothes/6c0d7e18/3.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "e2f15a94",
+      "sku": "",
+      "name": "",
+      "category": [],
+      "brand": "",
+      "color": "",
+      "size": [],
+      "description": "",
+      "material": "",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/e2f15a94/1.jpg",
+        "additional": [
+          "assets/clothes/e2f15a94/2.jpg",
+          "assets/clothes/e2f15a94/3.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "83b7c0d5",
+      "sku": "TOP-CID-001",
+      "name": "Satin Puff Sleeve Blouse",
+      "category": ["Top"],
+      "brand": "CIDER",
+      "color": "Cream",
+      "size": ["S"],
+      "description": "A cream satin blouse with a peter pan collar, short puff sleeves, pintuck pleats, and a button-up front.",
+      "material": "Satin",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/83b7c0d5/1.jpg",
+        "additional": [
+          "assets/clothes/83b7c0d5/2.jpg",
+          "assets/clothes/83b7c0d5/3.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "0a4e9f62",
+      "sku": "KNT-RYU-001",
+      "name": "Mesh Sleeve Knit Top",
+      "category": ["Knit Top"],
+      "brand": "RYUANZI",
+      "color": "Brown",
+      "size": ["One Size"],
+      "description": "A fitted ribbed knit top with a mock neck and sheer mesh sleeves, finished with ribbed flared cuffs and a small metal logo plate at the chest.",
+      "material": "Ribbed Knit, Mesh",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/0a4e9f62/1.jpg",
+        "additional": [
+          "assets/clothes/0a4e9f62/2.jpg",
+          "assets/clothes/0a4e9f62/3.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "c51d3b78",
+      "sku": "TOP-LIN-001",
+      "name": "Sequin Tube Top",
+      "category": ["Top"],
+      "brand": "LINBAIBAI",
+      "color": "White",
+      "size": ["XS"],
+      "description": "A white strapless tube top covered in shimmering sequins, cut long to the hip.",
+      "material": "Sequin",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/c51d3b78/1.jpg",
+        "additional": [
+          "assets/clothes/c51d3b78/2.jpg",
+          "assets/clothes/c51d3b78/3.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "7f8a2e16",
+      "sku": "TOP-RAR-001",
+      "name": "Puff Sleeve Pintuck Blouse",
+      "category": ["Top"],
+      "brand": "RARELY ALIKE",
+      "color": "Cream",
+      "size": ["S"],
+      "description": "A sheer cream blouse with a peter pan collar, short puff sleeves, pintuck pleats down the front, and a button-up placket.",
+      "material": "Cotton",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/7f8a2e16/1.jpg",
+        "additional": [
+          "assets/clothes/7f8a2e16/2.jpg",
+          "assets/clothes/7f8a2e16/3.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "2b6c5d09",
+      "sku": "DRS-LSF-001",
+      "name": "Lace Bodice Halter Midi Dress",
+      "category": ["Dress"],
+      "brand": "LSF STUDIO",
+      "color": "White",
+      "size": ["S"],
+      "description": "A white halter-neck midi dress with a ruffled crossover bodice in broderie anglaise lace and a full cotton skirt.",
+      "material": "Cotton, Lace",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/2b6c5d09/1.jpg",
+        "additional": [
+          "assets/clothes/2b6c5d09/2.jpg",
+          "assets/clothes/2b6c5d09/3.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "d4e07a31",
+      "sku": "TOP-UNK-001",
+      "name": "Floral Tulle Corset Top",
+      "category": ["Top"],
+      "brand": "Unknown",
+      "color": "Pink",
+      "size": ["S"],
+      "description": "A strapless corset top in nude tulle adorned with three-dimensional pink and cream floral appliqués and ribbon ties.",
+      "material": "Tulle",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/d4e07a31/1.jpg",
+        "additional": [
+          "assets/clothes/d4e07a31/2.jpg",
+          "assets/clothes/d4e07a31/3.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "9f1b6c84",
+      "sku": "",
+      "name": "",
+      "category": [],
+      "brand": "",
+      "color": "",
+      "size": [],
+      "description": "",
+      "material": "",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/9f1b6c84/1.jpg",
+        "additional": [
+          "assets/clothes/9f1b6c84/2.jpg",
+          "assets/clothes/9f1b6c84/3.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "5a3d0e72",
+      "sku": "TOP-CAT-001",
+      "name": "Abstract Print Long Sleeve Top",
+      "category": ["Top"],
+      "brand": "CATGIRL",
+      "color": "Brown",
+      "size": ["One Size"],
+      "description": "A fitted long-sleeve top with a boat neckline and an abstract painterly print in beige, brown, and purple tones.",
+      "material": "Jersey",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/5a3d0e72/1.jpg",
+        "additional": [
+          "assets/clothes/5a3d0e72/2.jpg",
+          "assets/clothes/5a3d0e72/3.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "e7c92f15",
+      "sku": "TOP-UNK-003",
+      "name": "Floral Print Tube Top",
+      "category": ["Top"],
+      "brand": "Unknown",
+      "color": "Orange",
+      "size": ["One Size"],
+      "description": "A strapless tube top with a bold orange and red lily floral print on a warm yellow base.",
+      "material": "Jersey",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/e7c92f15/1.jpg",
+        "additional": [
+          "assets/clothes/e7c92f15/2.jpg",
+          "assets/clothes/e7c92f15/3.jpg"
+        ]
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "b36a9c50",
+      "sku": "DRS-RAR-001",
+      "name": "Cross-Back Bodycon Midi Dress",
+      "category": ["Dress"],
+      "brand": "RARELY ALIKE",
+      "color": "Black",
+      "size": ["S"],
+      "description": "A fitted bodycon midi dress with a square neckline and crossed straps at the back.",
+      "material": "Jersey",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/b36a9c50/1.jpg",
+        "additional": []
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "4d7e1f28",
+      "sku": "DRS-WIN-001",
+      "name": "One-Shoulder Maxi Dress",
+      "category": ["Dress"],
+      "brand": "WINDSOR",
+      "color": "Black",
+      "size": ["One Size"],
+      "description": "A sleek black one-shoulder maxi dress with an asymmetric neckline and a fitted floor-length silhouette.",
+      "material": "Jersey",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/4d7e1f28/1.jpg",
+        "additional": []
+      },
+      "imageCaptions": []
+    },
+    {
+      "id": "c0a7e9b2",
+      "sku": "DRS-HUO-001",
+      "name": "Floral Appliqué Maxi Dress",
+      "category": ["Dress"],
+      "brand": "HUOSHULIN",
+      "color": "White",
+      "size": ["M"],
+      "description": "A white bodycon maxi dress with thin straps, an underwire bust, scattered three-dimensional floral appliqués, and a high front slit.",
+      "material": "Jersey",
+      "price": "100",
+      "inStock": true,
+      "filePath": {
+        "main": "assets/clothes/c0a7e9b2/1.jpg",
+        "additional": [
+          "assets/clothes/c0a7e9b2/2.jpg",
+          "assets/clothes/c0a7e9b2/3.jpg"
+        ]
+      },
+      "imageCaptions": []
     }
   ]
 }
