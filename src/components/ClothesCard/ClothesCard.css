@@ -16,6 +16,18 @@
   height: 100%;
   object-fit: cover;
   display: block;
+  transition: opacity 0.35s ease;
+}
+
+.clothes-card-loading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--color-dark-brown);
+  color: var(--color-dark-brown);
+  font-size: 14px;
 }
 
 .clothes-card-info {
